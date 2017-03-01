@@ -1,0 +1,20 @@
+group 'diego'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.fluentlenium:fluentlenium-junit:3.1.1'
+    testCompile 'org.fluentlenium:fluentlenium-assertj:3.1.1'
+    testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:2.53.0'
+
+//    testCompile 'org.eclipse.jetty.websocket:websocket-api:9.3.5.v20151012'
+//    testCompile 'org.eclipse.jetty.websocket:websocket-client:9.3.5.v20151012'
+//    testCompile 'xml-apis:xml-apis:1.4.01'
+
+}
